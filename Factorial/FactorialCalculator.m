@@ -27,6 +27,10 @@
     NSUInteger n = number;
     NSUInteger f = n;
  
+    if (number < 1) {
+        return 1;
+    }
+    
     while (n > 1) {
         f *= --n;
     }
