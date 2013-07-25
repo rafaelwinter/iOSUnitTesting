@@ -7,7 +7,10 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "FactorialCalculator.h"
 
 @interface FactorialTests : SenTestCase
+
+@property (strong, nonatomic) FactorialCalculator *fact;
 
 @end

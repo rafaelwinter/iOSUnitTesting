@@ -14,7 +14,7 @@
 {
     [super setUp];
     
-    // Set-up code here.
+    self.fact = [[FactorialCalculator alloc] init];
 }
 
 - (void)tearDown
@@ -24,9 +24,32 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in FactorialTests");
+- (void)testFactorialOf0 {
+    
+    NSUInteger f = [self.fact factorialOf:0];
+    
+    STAssertTrue(f == 1, @"Factorial of 0 should be 1");
+}
+
+- (void)testFactorialOf1 {
+    
+    NSUInteger f = [self.fact factorialOf:1];
+    
+    STAssertTrue(f == 1, @"Factorial of 1 should be 1");
+}
+
+- (void)testFactorialOf5 {
+    
+    NSUInteger f = [self.fact factorialOf:5];
+    
+    STAssertTrue(f == 120, @"Factorial of 5 should be 120");
+}
+
+- (void)testFactorialOf10 {
+    
+    NSUInteger f = [self.fact factorialOf:10];
+    
+    STAssertTrue(f == 3628800, @"Factorial of 10 should be 3628800");
 }
 
 @end
