@@ -23,6 +23,7 @@
 		C856B32D17A17F2F00624024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C856B30817A17F2F00624024 /* Foundation.framework */; };
 		C856B33517A17F3000624024 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C856B33317A17F3000624024 /* InfoPlist.strings */; };
 		C856B33817A17F3000624024 /* FactorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C856B33717A17F3000624024 /* FactorialTests.m */; };
+		C856B34317A17F7C00624024 /* FactorialCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C856B34217A17F7C00624024 /* FactorialCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		C856B33417A17F3000624024 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C856B33617A17F3000624024 /* FactorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactorialTests.h; sourceTree = "<group>"; };
 		C856B33717A17F3000624024 /* FactorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactorialTests.m; sourceTree = "<group>"; };
+		C856B34117A17F7C00624024 /* FactorialCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactorialCalculator.h; sourceTree = "<group>"; };
+		C856B34217A17F7C00624024 /* FactorialCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactorialCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				C856B32117A17F2F00624024 /* ViewController.h */,
 				C856B32217A17F2F00624024 /* ViewController.m */,
 				C856B30D17A17F2F00624024 /* Supporting Files */,
+				C856B34117A17F7C00624024 /* FactorialCalculator.h */,
+				C856B34217A17F7C00624024 /* FactorialCalculator.m */,
 			);
 			path = Factorial;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				C856B31317A17F2F00624024 /* main.m in Sources */,
 				C856B31717A17F2F00624024 /* AppDelegate.m in Sources */,
 				C856B32317A17F2F00624024 /* ViewController.m in Sources */,
+				C856B34317A17F7C00624024 /* FactorialCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
